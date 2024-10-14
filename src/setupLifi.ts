@@ -10,11 +10,11 @@ createConfig({
   },
   userId: 'user_unique_identifier',      // Optional: Unique identifier for the user of your application
   routeOptions: {                        // Optional: Custom options for routing
-    // Define specific route options here
+   
   },
-  chains: [                              // Optional: Array of chains that the SDK will support
-    // Define specific chain details here
+  chains: [                             
+   
   ],
-  preloadChains: true,                   // Optional: Flag to preload chain configurations
-  disableVersionCheck: false,            // Optional: Flag to disable version checking of the SDK
+  preloadChains: true,                   
+  disableVersionCheck: false,            
 });
