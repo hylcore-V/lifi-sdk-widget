@@ -6,7 +6,7 @@
   margin-right: 2rem;
   cursor: pointer;
 }
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed {
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed:last-child {
     display: none !important;
 }
 
@@ -17,6 +17,7 @@
 .MuiTypography-root.MuiTypography-body1 {
   color: #bababa;
 }
+
 .css-doylc9 {
   border-bottom: none !important;
 }

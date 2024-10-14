@@ -1,38 +1,42 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LIFI</title>
-  </head>
-  <body style="margin: 0; background-color: #000000;">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script>
-      'use strict'
-      $(document).ready(function() {
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LIFI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 0; background-color: #000000;">
+  <div id="root"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    $(document).ready(function() {
+      function triggerRouteActions() {
         const swapBtn = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-7ujqpn');
-        const bridge = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1vxqj8t-MuiButtonBase-root-MuiTab-root');
-        // const txExplorer = $('.MuiIconButton-root.MuiIconButton-sizeMedium.css-v5gbs4-MuiButtonBase-root-MuiIconButton-root')
+        const bridgeBtn = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1vxqj8t-MuiButtonBase-root-MuiTab-root');
 
-        const url = window.location.href;
-        const routerUrl = url.split("/")[3]
-        if(routerUrl === "swap") {
-          swapBtn.click()
-          console.log(window.location.href)
+        const path = window.location.pathname.split('/')[1]; // Adjusted to directly use the pathname
+        switch(path) {
+          case 'swap':
+            swapBtn.click();
+            break;
+          case 'bridge':
+            bridgeBtn.click();
+            break;
+          // Add more cases as necessary
         }
-        else if(routerUrl === "bridge") {
-          bridge.click();
-        }
-        // else if(routerUrl === "explorer") {
-        //   txExplorer.click()
-        // }
-      })
-    </script>
-  </body>
+      }
+
+      // Re-run route actions on popstate event which occurs on navigating back/forward
+      $(window).on('popstate', function() {
+        triggerRouteActions();
+      });
+
+      // Initial trigger
+      triggerRouteActions();
+    });
+  </script>
+</body>
 </html>
