@@ -15,6 +15,10 @@
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-h4bhlx {
     display: none;
 }
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed {
+    display: none;
+}
+
 .MuiTypography-root.MuiTypography-body1.css-pysh69-MuiTypography-root {
   color: #ffffff;
 }
