@@ -6,24 +6,15 @@
   margin-right: 2rem;
   cursor: pointer;
 }
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-1k1bn3d-MuiPaper-root-MuiAppBar-root {
-  display: none;
-}
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-1kqslf6-MuiPaper-root-MuiAppBar-root {
-  display: none;
-}
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-h4bhlx {
-    display: none;
-}
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed {
     display: none !important;
 }
 
-.MuiTypography-root.MuiTypography-body1.css-pysh69-MuiTypography-root {
-  color: #ffffff;
+.MuiTypography-root.MuiTypography-body1 {
+    color: #fff;
 }
 
-.MuiTypography-root.MuiTypography-body1.css-2byhhs-MuiTypography-root {
+.MuiTypography-root.MuiTypography-body1 {
   color: #bababa;
 }
 .css-doylc9 {
