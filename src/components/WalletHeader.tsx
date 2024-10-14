@@ -21,8 +21,8 @@ export function WalletHeader() {
         Example
       </Typography>
       <Box display="flex" alignItems="center">
-        <a className="navlink" href="/swap">Swap</a>
-        <a className="navlink" href="/bridge">Bridge</a>
+        <a className="navlink" href="swap">Swap</a>
+        <a className="navlink" href="bridge">Bridge</a>
         <a className="navlink" href="https://scan.li.fi/">Explorer</a>
         <Typography px={2}>{address}</Typography>
         {!isConnected ? (
