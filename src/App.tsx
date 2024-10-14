@@ -6,7 +6,7 @@ import QuoteFetcher from "./components/QuoteFetcher"; // Assuming you still want
 function App() {
   return (
     <div>
-      <h1>Welcome to Our dApp</h1>
+      {/* <h1>Welcome to Our dApp</h1> */}
       {/* LI.FI Widget integration */}
       <div style={{ margin: "20px", padding: "20px" }}>
         <LiFiWidget
@@ -14,15 +14,15 @@ function App() {
           config={{
             variant: "wide",
             subvariant: "split",
-            appearance: "auto",
+            appearance: "dark",
             theme: {
               palette: {
                 primary: {
-                  main: "#5C67FF",
+                  main: "#5C67FF"
                 },
                 secondary: {
-                  main: "#F5B5FF",
-                },
+                  main: "#F5B5FF"
+                }
               },
               typography: {
                 fontFamily: "Inter, sans-serif",
