@@ -16,7 +16,7 @@
     display: none;
 }
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed {
-    display: none;
+    display: none !important;
 }
 
 .MuiTypography-root.MuiTypography-body1.css-pysh69-MuiTypography-root {
