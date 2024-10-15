@@ -6,13 +6,28 @@
   margin-right: 2rem;
   cursor: pointer;
 }
-/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed:last-child {
+
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed:last-child {
+    display: none;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-4q8f3l-MuiPaper-root-MuiAppBar-root {
+    display: flex !important;
+   }
+   .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-8ba7b8-MuiPaper-root-MuiAppBar-root {
+    display: flex !important;
+   }
+
+/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-1k1bn3d-MuiPaper-root-MuiAppBar-root {
     display: none !important;
 } */
 
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-1k1bn3d-MuiPaper-root-MuiAppBar-root {
+/* .MuiTabs-flexContainer {
     display: none !important;
-}
+} 
+.MuiTabs-scroller.MuiTabs-fixed {
+    display: none !important;
+} */
 
 .MuiTypography-root.MuiTypography-body1 {
     color: #fff;

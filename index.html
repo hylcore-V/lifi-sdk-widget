@@ -12,7 +12,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script type="module" src="/src/main.tsx"></script>
   <script>
+
     $(document).ready(function() {
+
+      $('.MuiTabs-root').parent().attr('style', 'display: none !important;');
+
       function triggerRouteActions() {
         const swapBtn = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-7ujqpn');
         const bridgeBtn = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1vxqj8t-MuiButtonBase-root-MuiTab-root');
@@ -36,7 +40,11 @@
 
       // Initial trigger
       triggerRouteActions();
+  
+      $('.MuiTabs-root').parent().attr('style', 'display: none !important;');
+
     });
+
   </script>
 </body>
 </html>
