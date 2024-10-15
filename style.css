@@ -7,30 +7,18 @@
   cursor: pointer;
 }
 
-
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed:last-child {
-    display: none;
+  display: none;
 }
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-4q8f3l-MuiPaper-root-MuiAppBar-root {
-    display: flex !important;
-   }
-   .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-8ba7b8-MuiPaper-root-MuiAppBar-root {
-    display: flex !important;
-   }
-
-/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-1k1bn3d-MuiPaper-root-MuiAppBar-root {
-    display: none !important;
-} */
-
-/* .MuiTabs-flexContainer {
-    display: none !important;
-} 
-.MuiTabs-scroller.MuiTabs-fixed {
-    display: none !important;
-} */
+  display: flex !important;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-8ba7b8-MuiPaper-root-MuiAppBar-root {
+  display: flex !important;
+}
 
 .MuiTypography-root.MuiTypography-body1 {
-    color: #fff;
+  color: #fff;
 }
 .MuiTypography-root.MuiTypography-body1 {
   color: #bababa;
