@@ -16,6 +16,8 @@
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-8ba7b8-MuiPaper-root-MuiAppBar-root {
   display: flex !important;
 }
+
+/* for vercel */
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-113893u {
     display: flex !important;
 }
