@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LIFI</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body style="margin: 0; background-color: #000000;">
   <div id="root"></div>
@@ -13,37 +15,37 @@
   <script type="module" src="/src/main.tsx"></script>
   <script>
 
-    $(document).ready(function() {
+    // $(document).ready(function() {
 
-      $('.MuiTabs-root').parent().attr('style', 'display: none !important;');
+      // $('.MuiTabs-root').parent().attr('style', 'display: none !important;');
 
-      function triggerRouteActions() {
-        const swapBtn = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-7ujqpn');
-        const bridgeBtn = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1vxqj8t-MuiButtonBase-root-MuiTab-root');
+      // function triggerRouteActions() {
+      //   const swapBtn = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-7ujqpn');
+      //   const bridgeBtn = $('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.css-1vxqj8t-MuiButtonBase-root-MuiTab-root');
 
-        const path = window.location.pathname.split('/')[1]; // Adjusted to directly use the pathname
-        switch(path) {
-          case 'bridge':
-            swapBtn.click();
-            break;
-          case 'swap':
-            bridgeBtn.click();
-            break;
+      //   const path = window.location.pathname.split('/')[1]; // Adjusted to directly use the pathname
+      //   switch(path) {
+      //     case 'bridge':
+      //       swapBtn.click();
+      //       break;
+      //     case 'swap':
+      //       bridgeBtn.click();
+      //       break;
           // Add more cases as necessary
-        }
-      }
+      //   }
+      // }
 
       // Re-run route actions on popstate event which occurs on navigating back/forward
-      $(window).on('popstate', function() {
-        triggerRouteActions();
-      });
+      // $(window).on('popstate', function() {
+      //   triggerRouteActions();
+      // });
 
       // Initial trigger
-      triggerRouteActions();
+    //   triggerRouteActions();
   
-      $('.MuiTabs-root').parent().attr('style', 'display: none !important;');
+    //   $('.MuiTabs-root').parent().attr('style', 'display: none !important;');
 
-    });
+    // });
 
   </script>
 </body>

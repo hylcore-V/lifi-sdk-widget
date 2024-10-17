@@ -1,4 +1,4 @@
-.navlink {
+/* .navlink {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.2rem;
@@ -18,12 +18,13 @@
 }
 
 /* for vercel */
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-113893u {
+/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-113893u {
     display: flex !important;
 }
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-199hpgt {
     display: flex !important;
-}
+}  */
+
 
 .MuiTypography-root.MuiTypography-body1 {
   color: #fff;
@@ -33,4 +34,72 @@
 }
 .css-doylc9 {
   border-bottom: none !important;
+}
+
+
+.brixo-logo {
+  width: 16rem;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wallet-footer {
+color: white;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Inter', sans-serif;
+/* position: fixed;
+bottom: 0;
+width: 100%;
+z-index: 1; */
+}
+.wallet-footer h6 {
+  font-size: 16px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.wallet-footer p {
+  font-size: 12px;
+  font-weight: lighter !important;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+.copyright p {
+  font-size: 10px;
+  color: white;
+}
+.copyright img {
+  width: 25px;
+  height: auto;
+}
+.wallet-footer>div {
+  width: 360px;
+  padding-bottom: 1rem;
+}
+
+/* responsive part */
+
+@media (max-width:1024px) {
+  .wallet-footer>div {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width:360px) {
+  .wallet-footer>div {
+    width: 95vw;
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width:1920px) {
+  body {
+    overflow-y: hidden;
+  }
 }

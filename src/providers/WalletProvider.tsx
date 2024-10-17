@@ -7,6 +7,7 @@ import { mainnet } from 'viem/chains';
 import type { Config } from 'wagmi';
 import { createConfig, WagmiProvider } from 'wagmi';
 
+
 const projectId = import.meta.env.VITE_WALLET_CONNECT_PROJECT_ID;
 
 const connectors = [injected(), walletConnect({ projectId })];
