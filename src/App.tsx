@@ -11,7 +11,7 @@ function App() {
         <LiFiWidget
           integrator="vite-example"
           config={{
-            variant: "wide",
+            variant: "compact",
             subvariant: "split",
             appearance: "dark",
             theme: {
@@ -35,6 +35,24 @@ function App() {
             },
           }}
         />
+        <div className="wallet-footer">
+          <div>
+            <h6>
+              Best Price Execution – Any Chain to Any Chain
+            </h6>
+            <p>
+              Seamlessly swap, bridge, and zap across all blockchains and protocols. Get the best rates by trading through top DEX aggregators, bridges, and intent-systems - all in one place.
+            </p>
+            <p>
+              Start optimizing your crypto transactions with ease on Brixo!
+            </p>
+            <div className="copyright">
+              <p>Integrated for the community by Red Guy</p>
+              <img src="./fav.webp" alt="red guy logo fav" />
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
