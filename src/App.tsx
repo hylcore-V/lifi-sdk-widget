@@ -1,14 +1,13 @@
 // src/App.tsx
 import React from "react";
 import { LiFiWidget } from "@lifi/widget";
-import QuoteFetcher from "./components/QuoteFetcher"; // Assuming you still want to use this component
 import { ChainId } from '@lifi/widget';
 
 
 function App() {
   return (
     <div>
-      <div style={{ margin: "20px", padding: "20px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", height: "85vh"}}>
+      <div style={{ margin: "20px", padding: "20px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", height: "85vh" }}>
         <LiFiWidget
           integrator="vite-example"
           config={{
@@ -34,33 +33,8 @@ function App() {
                 borderBottom: "6px solid #000"
               },
             },
-            sdkConfig: {
-              rpcUrls: {
-                [ChainId.SOL]: [
-                  // Replace with your private Solana RPC
-                  'https://chaotic-restless-putty.solana-mainnet.quiknode.pro/',
-                ],
-              },
-            },
           }}
         />
-        <div className="wallet-footer">
-          <div>
-          <h6>
-            Best Price Execution – Any Chain to Any Chain
-          </h6>
-          <p>
-            Seamlessly swap, bridge, and zap across all blockchains and protocols. Get the best rates by trading through top DEX aggregators, bridges, and intent-systems - all in one place.
-          </p>
-          <p>
-            Start optimizing your crypto transactions with ease on Brixo!
-          </p>
-          <div className="copyright">
-            <p>Integrated for the community by Red Guy</p>
-            <img src="./fav.webp" alt="red guy logo fav" />
-          </div>
-          </div>
-        </div>
       </div>
     </div>
   );

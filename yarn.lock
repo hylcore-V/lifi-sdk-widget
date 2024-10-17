@@ -1307,7 +1307,7 @@
     viem "^2.21.16"
     wagmi "^2.12.16"
 
-"@lifi/widget@^3.3.0":
+"@lifi/widget@^3.7.0":
   version "3.7.0"
   resolved "https://registry.npmjs.org/@lifi/widget/-/widget-3.7.0.tgz"
   integrity sha512-1iZ7uV2mZxBec5k9LF5zcBQJ+AcFdOVPv2/pnK2SUFCuklvgj5tVauR8aCEVNeUFr8xLGdlWuJK9+ON/2MEywQ==
