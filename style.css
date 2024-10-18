@@ -24,6 +24,10 @@
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-199hpgt {
     display: flex !important;
 }  */
+  .MuiTypography-root.MuiTypography-inherit.MuiLink-root.MuiLink-underlineNone {
+    display: none;
+  }
+
 
 .MuiTypography-root.MuiTypography-body1 {
   color: #fff;
@@ -34,15 +38,22 @@
 .css-doylc9 {
   border-bottom: none !important;
 }
+.main-body {
+  background-image: url(./public/body-bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 .brixo-logo {
-  width: 16rem;
+  width: 12rem;
   height: auto;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -2rem;
+  bottom: -1rem;
+  margin-left: -7rem;
 }
 .wallet-footer {
   color: white;
@@ -98,5 +109,11 @@
 @media (min-width: 1920px) {
   body {
     overflow-y: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+  .brixo-logo {
+    margin-left: -5rem;
   }
 }

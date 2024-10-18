@@ -26,9 +26,10 @@ export function WalletHeader() {
         {/* <a className="navlink" href="swap">Swap</a>
         <a className="navlink" href="bridge">Bridge</a>
         <a className="navlink" href="https://scan.li.fi/">Explorer</a> */}
-        <Typography px={2}>{address}</Typography>
+        {/* <Typography px={2}>{address}</Typography> */}
         {!isConnected ? (
           <Button
+          className="connect-bnt"
             variant="contained"
             disableElevation
             onClick={() => connectAsync({ connector: connectors[0] })}
@@ -38,6 +39,7 @@ export function WalletHeader() {
         ) : (
           <Button
             variant="contained"
+            className="connect-btn"
             disableElevation
             onClick={() => disconnect()}
           >

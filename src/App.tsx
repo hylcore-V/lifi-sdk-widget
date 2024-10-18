@@ -14,7 +14,7 @@ function App() {
             variant: "compact",
             subvariant: "default",
             appearance: "dark",
-            fee: 0.03,
+            fee: 0.003,
             theme: {
               palette: {
                 primary: {
