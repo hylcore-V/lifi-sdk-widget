@@ -13,12 +13,12 @@ const queryClient = new QueryClient();
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      <WalletProvider>
-        <SolanaWalletProvider>
+        <WalletProvider>
+      <SolanaWalletProvider>
           <WalletHeader />
           <App />
-        </SolanaWalletProvider>
-      </WalletProvider>
+      </SolanaWalletProvider>
+        </WalletProvider>
     </QueryClientProvider>
   </React.StrictMode>,
 );

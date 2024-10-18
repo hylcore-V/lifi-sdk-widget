@@ -7,12 +7,13 @@ import { mainnet } from 'viem/chains';
 import type { Config } from 'wagmi';
 import { createConfig, WagmiProvider } from 'wagmi';
 
+
+
 const connectors = [injected()];
 
 export const WalletProvider: FC<PropsWithChildren> = ({ children }) => {
   const { chains } = useAvailableChains();
 
-  console.log("chains:", chains);
   
   const wagmi = useRef<Config>();
 
@@ -30,7 +31,7 @@ export const WalletProvider: FC<PropsWithChildren> = ({ children }) => {
 
   return (
     <WagmiProvider config={wagmi.current} reconnectOnMount={false}>
-      {children}
+        {children}
     </WagmiProvider>
   );
 };

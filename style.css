@@ -25,7 +25,6 @@
     display: flex !important;
 }  */
 
-
 .MuiTypography-root.MuiTypography-body1 {
   color: #fff;
 }
@@ -36,21 +35,21 @@
   border-bottom: none !important;
 }
 
-
 .brixo-logo {
   width: 16rem;
   height: auto;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  bottom: -2rem;
 }
 .wallet-footer {
-color: white;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
-font-family: 'Inter', sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
 }
 .wallet-footer h6 {
   font-size: 16px;
@@ -65,7 +64,7 @@ font-family: 'Inter', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 .copyright p {
   font-size: 10px;
@@ -76,26 +75,26 @@ font-family: 'Inter', sans-serif;
   width: 25px;
   height: auto;
 }
-.wallet-footer>div {
+.wallet-footer > div {
   width: 360px;
   padding-bottom: 1rem;
 }
 
 /* responsive part */
 
-@media (max-width:1024px) {
-  .wallet-footer>div {
+@media (max-width: 1024px) {
+  .wallet-footer > div {
     padding-bottom: 2rem;
   }
 }
 
-@media (max-width:360px) {
-  .wallet-footer>div {
+@media (max-width: 360px) {
+  .wallet-footer > div {
     width: 95vw;
     padding-bottom: 2rem;
   }
 }
-@media (min-width:1920px) {
+@media (min-width: 1920px) {
   body {
     overflow-y: hidden;
   }

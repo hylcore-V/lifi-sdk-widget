@@ -10,23 +10,23 @@ export function WalletHeader() {
 
   return (
     <Box
-      p={2}
-      mb={2}
-      mt={6}
+      px={2}
+      pt={2}
+      mt={3}
       display="flex"
       justifyContent="space-between"
       alignItems="center"
       position="relative"
     >
-           <img src="./BRIXO-LOGO.webp" className="brixo-logo" />
-      {/* <Typography px={2} fontWeight={600} fontSize={24}>
-        Example
-      </Typography> */}
-      {/* <Box display="flex" alignItems="center"> */}
+           
+      <Typography px={2}>
+      <img src="./BRIXO-LOGO.webp" className="brixo-logo" />
+      </Typography>
+      <Box display="flex" alignItems="center">
         {/* <a className="navlink" href="swap">Swap</a>
         <a className="navlink" href="bridge">Bridge</a>
         <a className="navlink" href="https://scan.li.fi/">Explorer</a> */}
-        {/* <Typography px={2}>{address}</Typography>
+        <Typography px={2}>{address}</Typography>
         {!isConnected ? (
           <Button
             variant="contained"
@@ -43,8 +43,8 @@ export function WalletHeader() {
           >
             Disconnect
           </Button>
-        )} */}
-      {/* </Box> */}
+        )}
+      </Box>
     </Box>
   );
 }
