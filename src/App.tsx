@@ -9,7 +9,7 @@ function App() {
     <div>
       <div style={{ margin: "20px", padding: "20px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", height: "85vh" }}>
         <LiFiWidget
-          integrator="Brixo"
+          integrator="BrixoApp"
           config={{
             variant: "compact",
             subvariant: "default",
