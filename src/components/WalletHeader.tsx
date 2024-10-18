@@ -14,7 +14,7 @@ export function WalletHeader() {
       pt={2}
       mt={3}
       display="flex"
-      justifyContent="space-between"
+      justifyContent="center"
       alignItems="center"
       position="relative"
     >
@@ -22,7 +22,7 @@ export function WalletHeader() {
       <Typography px={2}>
       <img src="./BRIXO-LOGO.webp" className="brixo-logo" />
       </Typography>
-      <Box display="flex" alignItems="center">
+      <Box display="flex" alignItems="center" marginLeft={24}>
         {/* <a className="navlink" href="swap">Swap</a>
         <a className="navlink" href="bridge">Bridge</a>
         <a className="navlink" href="https://scan.li.fi/">Explorer</a> */}
